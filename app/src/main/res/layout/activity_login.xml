@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.foj.loginactivity.LoginActivity"
+    android:background="@drawable/ic_login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentEnd="true"
+        android:background="#806d6565"
+        android:id="@+id/linearLayout"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2345"
+            android:layout_gravity="center_horizontal"
+            android:text="Login. Here we go!"
+            android:textAlignment="center"
+            android:textColor="@color/abc_search_url_text"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:hint="E-mail address"
+            android:textColorHint="@color/abc_primary_text_material_dark"
+            android:textColor="@color/accent_material_light" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="Password"
+            android:textColorHint="@color/abc_primary_text_material_dark"
+            android:textColor="@color/accent_material_light" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/button2"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:background="#f4c0c0" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button"
+            android:layout_marginTop="-50dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:text="I forgot my password"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginBottom="-10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
